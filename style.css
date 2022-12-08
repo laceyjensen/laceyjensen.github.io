@@ -1,47 +1,57 @@
-div {
-    position: absolute;
-    background: rgb(199, 207, 214);
-     height: 17px;
-    width: 300px; 
-    }
+ 
 
     a.pseudo:visited {
-        color: lightblue;
+        color: rgb(101, 67, 33);
     }
     
     
     a.pseudo:hover {
-        color: red;
+        color: rgb(151, 123, 87);
     }
     
     a.pseudo:active {
-        color: green;
+        color: rgb(181, 144, 96);
     }
 
-    .box {
-        position: sticky;
-        background-color: rgb(100, 165, 230);
-        width: 308px;
-        border: 5px solid rgb(37, 65, 209);
-        padding: 50px;
-        margin: 80px;
-    }
+
 
     body {
-        background: rgb(121, 164, 223);
+        background: rgb(220, 194, 160);
 
     }
 
     h1 {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color:rgb(221, 231, 239);     
+        color:rgb(101, 67, 33);     
     }
 
     h2 {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color:rgb(221, 231, 239);
+        color:rgb(101, 67, 33);
+    }
+
+    h3 {
+        color:rgb(101, 67, 33);
+    }
+
+    p {
+        color: rgb(101, 67, 33);
+    }
+
+    li {
+        color:rgb(101, 67, 33);
     }
     
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+
+    /*
     #image {
         margin-top: 20Spx;
         margin-bottom: 50px;
@@ -62,9 +72,21 @@ div {
             animation-duration: 4s;
           }
           
-      
+      .box {
+        position: sticky;
+        background-color: rgb(100, 165, 230);
+        width: 308px;
+        border: 5px solid rgb(37, 65, 209);
+        padding: 50px;
+        margin: 80px;
+    }
 
-
+div {
+    position: absolute;
+    background: rgb(199, 207, 214);
+     height: 17px;
+    width: 300px; 
+    }
 
 
 
